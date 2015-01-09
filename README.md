@@ -1,29 +1,7 @@
-# Foundation Compass Template
+Eagle Imperium Wordpress Theme
+======
+## It's been a long time
+The last time FRC3322 made a Wordpress theme, flat design was a whim, HTML5 was fighting for adoption, Facebook was  for talking to friends, and cell phones had numbers on them. If that's not strong enough of a case for a new website theme, well...
 
-The easiest way to get started with Foundation + Compass.
-
-## Requirements
-
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
-
-## Quickstart
-
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
-
-```bash
-bundle exec compass watch
-```
-
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
-```
+## Resources
+Instead of dealing in the world of custom layouts, Foundation5 will take the helm of 
