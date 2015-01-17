@@ -1,0 +1,167 @@
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+header {
+	min-height: 80%;
+	background: url('../img/header-graphic.jpg') $ei-blue;
+	background-blend-mode: soft-light;
+	background-position: 0 65% fixed;
+
+	color: white;
+	a {
+		color: white;
+		transition: padding .25s;
+		border-radius: .125em;
+		padding: 0 .5em;
+		font-style: oblique;
+		&:visited {
+			color: white;
+		}
+		&:hover{
+			color: $ei-blue;
+			font-weight: 500;
+			background-color: white;
+			padding: .5em .5em;
+			transition: padding .25s;
+			//box-shadow: 0 .075em .125em #444;
+		}
+	}
+	.row .columns .row {
+			margin-top: 25%;
+	}
+
+	h1 {
+		font-size: 4em;
+		text-transform: uppercase;
+
+	}
+
+	h1,h2, h3, h4{
+		color: white;
+	}
+
+	.title {
+		margin-top: 4rem;
+		text-shadow: 0 1px 0 $ei-darkgrey;
+	}
+
+	.tagline {
+		margin-top: -2rem;
+		line-height: 1.2em;
+		font-size: 1.5em;
+		font-weight: 100;
+		text-transform: uppercase;
+		text-shadow: 0 1px 0 $ei-darkgrey;
+	}
+
+	ul {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	.news {
+		margin-top: 4rem;
+	}
+
+}
+
+#header-nav{
+	.top-bar {
+		.name{
+			max-width: 1.5 * $topbar-height;
+		}
+	}
+}
+
+#body {
+	margin-top: 6em;
+}
+
+#sidebar {
+	ul {
+		text-align: right;
+		list-style: none;
+		font-style: oblique;
+		color: black;
+		margin-top: 6em;
+		a {
+			color: black;
+			font-weight: 300;
+			&:visited {
+				color: black;
+			}
+		}
+		&#content-types-list {
+			li a:hover, li a:active, .active {
+				font-weight: 400;
+				color: $ei-blue;
+			}
+		}
+	}
+}
+
+#content {
+	article {
+		margin-bottom: 6em;
+		a {
+			color: $ei-blue;
+			font-weight: bold;
+			border-bottom: 1px dotted $ei-blue;
+			padding: 0 .25em;
+			&:visited {
+				color: $ei-red;
+				border-bottom: 1px dotted $ei-red;
+			}
+			&:hover, &:active, .active {
+				color: white;
+				background-color: $ei-blue;
+			}
+			&:hover:visited {
+				color: white;
+				background-color: $ei-red;
+			}
+		}
+	}
+}
+
+footer {
+	background: $ei-darkgrey;
+
+	color: white;
+	.row {
+		padding-top: 10em;
+	}
+	h1, h2, h3 {
+		color: white;
+	}
+	a {
+		color: white;
+		transition: padding .25s;
+		border-radius: .125em;
+		padding: 0 .5em;
+		font-style: oblique;
+		&:visited {
+			color: white;
+		}
+		&:hover{
+			color: $ei-red;
+			font-weight: 500;
+			background-color: white;
+			padding: .5em .5em;
+			font-style: normal;
+			transition: padding .25s;
+			//box-shadow: 0 .075em .125em #444;
+		}
+	}
+	ul {
+		margin-top: 1em;
+		list-style: none;
+		line-height: 2.5em;
+	}
+	.credit-line {
+		font-weight: 300;
+		font-size: 140%;
+
+	}
+}
