@@ -2,32 +2,20 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
+
 header {
-	min-height: 80%;
+	min-height: 100%;
 	background: url('../img/header-graphic.jpg') $ei-blue;
-	background-blend-mode: soft-light;
-	background-position: 0 65% fixed;
+	//background-blend-mode: soft-light;
+	background-position: 0 65%;
+	//background-attachment: fixed;
 
 	color: white;
-	a {
-		color: white;
-		transition: padding .25s;
-		border-radius: .125em;
-		padding: 0 .5em;
-		font-style: oblique;
-		&:visited {
-			color: white;
-		}
-		&:hover{
-			color: $ei-blue;
-			font-weight: 500;
-			background-color: white;
-			padding: .5em .5em;
-			transition: padding .25s;
-			//box-shadow: 0 .075em .125em #444;
-		}
+	
+	.row .columns .top {
+			margin-top: 25%;
 	}
-	.row .columns .row {
+	.row .columns .bottom {
 			margin-top: 25%;
 	}
 
@@ -58,6 +46,24 @@ header {
 	ul {
 		list-style: none;
 		margin-left: 0;
+		a {
+		color: white;
+		transition: padding .25s;
+		border-radius: .125em;
+		padding: 0 .5em;
+		font-style: oblique;
+		&:visited {
+			color: white;
+		}
+		&:hover{
+			color: $ei-blue;
+			font-weight: 500;
+			background-color: white;
+			padding: .5em .5em;
+			transition: padding .25s;
+			//box-shadow: 0 .075em .125em #444;
+		}
+	}
 	}
 
 	.news {
@@ -104,6 +110,7 @@ header {
 #content {
 	article {
 		margin-bottom: 6em;
+		
 		a {
 			color: $ei-blue;
 			font-weight: bold;
@@ -163,5 +170,65 @@ footer {
 		font-weight: 300;
 		font-size: 140%;
 
+	}
+}
+
+a ul.event-box, ul.event-box {
+	border-radius: 3px;
+	display: inline-block;
+	list-style: none;
+	background: white;
+	padding: 1em;
+	margin-left: 0;
+	width: 300px;
+	color: $ei-darkgrey;
+	transition: background-color .2s;
+    
+	&:hover{
+		background-color: $ei-darkgrey;
+		color: white;
+		transition: background-color .2s;
+	}
+	li.date{
+		float: left;
+		display: block;
+		font-weight: 700;
+		font-size: .8em;
+		line-height: 100%;
+		text-transform: uppercase;
+		width: 3em;
+	}
+	li.description {
+		float: left;
+		display: block;
+		font-weight: 700;
+		font-size: .8em;
+		line-height: 100%;
+		text-transform: uppercase;
+	}
+	li.title{
+		display: block;
+		float: left;
+		font-size: 1em;
+		font-weight: 100; 
+	}
+	li.full-title{
+		display: block;
+		float: left;
+		font-size: 1em;
+		font-weight: 100; 
+		width: 100%;
+	}
+	&.blue {
+		background: $ei-blue;
+		color: white;
+	}
+	&.red {
+		background: $ei-red;
+		color: white;
+	}
+	&.grey {
+		background: $ei-darkgrey;
+		color: white;
 	}
 }
