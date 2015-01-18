@@ -8,6 +8,9 @@ $ei-blue: rgba( 118, 178, 221, 1);
 $ei-grey: rgba( 179, 179, 179, 1);
 $ei-darkgrey: rgba( 34, 34, 34, 1);
 
+$paragraph-font-size: 1.2rem;
+$body-font-color: $ei-darkgrey;
+
 $font-family-sans-serif: 'Roboto', Arial, sans-serif;
 $body-font-family: 'Roboto', serif;
 $franchise-font: "Franchise", 'Roboto', Helvetica, sans-serif;
@@ -17,6 +20,3 @@ $topbar-height: rem-calc(65);
 
 $topbar-bg-color: $ei-blue !default;
 $topbar-dropdown-bg: white;
-
-$select-bg-color: white;
-$select-hover-bg-color: $ei-blue;

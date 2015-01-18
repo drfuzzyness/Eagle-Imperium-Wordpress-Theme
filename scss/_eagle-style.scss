@@ -2,21 +2,29 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
+p {
+	margin: 5rem;
+}
 
 header {
 	min-height: 100%;
 	background: url('../img/header-graphic.jpg') $ei-blue;
 	//background-blend-mode: soft-light;
 	background-position: 0 65%;
+	background-size: cover;
 	//background-attachment: fixed;
 
 	color: white;
 	
 	.row .columns .top {
-			margin-top: 25%;
+		margin-top: 18%;
+	}
+
+	.row .columns .middle {
+		margin-top: 5%;
 	}
 	.row .columns .bottom {
-			margin-top: 25%;
+		margin-top: 20%;
 	}
 
 	h1 {
@@ -47,23 +55,23 @@ header {
 		list-style: none;
 		margin-left: 0;
 		a {
-		color: white;
-		transition: padding .25s;
-		border-radius: .125em;
-		padding: 0 .5em;
-		font-style: oblique;
-		&:visited {
 			color: white;
-		}
-		&:hover{
-			color: $ei-blue;
-			font-weight: 500;
-			background-color: white;
-			padding: .5em .5em;
 			transition: padding .25s;
-			//box-shadow: 0 .075em .125em #444;
+			//border-radius: .125em;
+			padding: 0 .5em 0 0;
+			font-style: oblique;
+			&:visited {
+				color: white;
+			}
+			&:hover{
+				color: $ei-blue;
+				font-weight: 500;
+				background-color: white;
+				padding: .25em .5em;
+				transition: padding .25s;
+				//box-shadow: 0 .075em .125em #444;
+			}
 		}
-	}
 	}
 
 	.news {
@@ -72,12 +80,43 @@ header {
 
 }
 
+
+
 #header-nav{
 	.top-bar {
 		.name{
 			max-width: 1.5 * $topbar-height;
 		}
 	}
+	.fixed {
+
+	}
+	box-shadow: 0 -.5rem 1rem $ei-darkgrey; 
+}
+
+#content-heading{
+	padding-top: 10%;
+	padding-bottom: 2rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: url('../img/3322-graphic.jpg') $ei-blue;
+	background-size: cover;
+	background-position: 0 25%;
+	h2 {
+		font-size: 4em;
+		color: white;
+		text-shadow: 0 1px 0 $ei-darkgrey;
+		margin-bottom: 0;
+		line-height: .5em;
+	}
+	.description {
+		margin-top: 0;
+		color: white;
+		text-transform: uppercase;
+		font-weight: 100;
+		text-shadow: 0 1px 0 $ei-darkgrey;
+	}
+
 }
 
 #body {
@@ -90,7 +129,7 @@ header {
 		list-style: none;
 		font-style: oblique;
 		color: black;
-		margin-top: 6em;
+		//margin-top: 6em;
 		a {
 			color: black;
 			font-weight: 300;
@@ -134,10 +173,11 @@ header {
 
 footer {
 	background: $ei-darkgrey;
-
 	color: white;
+	position: relative; 
 	.row {
-		padding-top: 10em;
+		padding-top: 6rem;
+		padding-bottom: 1rem;
 	}
 	h1, h2, h3 {
 		color: white;
@@ -171,10 +211,20 @@ footer {
 		font-size: 140%;
 
 	}
+
+	.tiny-text {
+		font-size: .5em;
+		font-weight: 100;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: 0;
+	}
 }
 
 a ul.event-box, ul.event-box {
-	border-radius: 3px;
+	border-radius: 1px;
 	display: inline-block;
 	list-style: none;
 	background: white;
