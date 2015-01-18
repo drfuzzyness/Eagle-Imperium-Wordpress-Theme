@@ -15,6 +15,7 @@ header {
 	//background-attachment: fixed;
 
 	color: white;
+	font-family: $font-family-sans-serif;
 	
 	.row .columns .top {
 		margin-top: 18%;
@@ -30,7 +31,6 @@ header {
 	h1 {
 		font-size: 4em;
 		text-transform: uppercase;
-
 	}
 
 	h1,h2, h3, h4{
@@ -43,6 +43,7 @@ header {
 	}
 
 	.tagline {
+		font-family: $font-family-sans-serif;
 		margin-top: -2rem;
 		line-height: 1.2em;
 		font-size: 1.5em;
@@ -55,6 +56,7 @@ header {
 		list-style: none;
 		margin-left: 0;
 		a {
+			font-family: $font-family-sans-serif;
 			color: white;
 			transition: padding .25s;
 			//border-radius: .125em;
@@ -78,6 +80,10 @@ header {
 		margin-top: 4rem;
 	}
 
+	p {
+		font-family: $font-family-sans-serif;
+	}
+
 }
 
 
@@ -99,9 +105,9 @@ header {
 	padding-bottom: 2rem;
 	margin-top: 0;
 	margin-bottom: 0;
-	background: url('../img/3322-graphic.jpg') $ei-blue;
+	background: url('../img/robot-graphic.jpg') $ei-blue;
 	background-size: cover;
-	background-position: 0 25%;
+	background-position: 0 55%;
 	h2 {
 		font-size: 4em;
 		color: white;
@@ -224,6 +230,7 @@ footer {
 }
 
 a ul.event-box, ul.event-box {
+	font-family: $font-family-sans-serif;
 	border-radius: 1px;
 	display: inline-block;
 	list-style: none;
@@ -240,6 +247,7 @@ a ul.event-box, ul.event-box {
 		transition: background-color .2s;
 	}
 	li.date{
+		font-family: $font-family-sans-serif;
 		float: left;
 		display: block;
 		font-weight: 700;
@@ -249,6 +257,7 @@ a ul.event-box, ul.event-box {
 		width: 3em;
 	}
 	li.description {
+		font-family: $font-family-sans-serif;
 		float: left;
 		display: block;
 		font-weight: 700;
@@ -257,12 +266,14 @@ a ul.event-box, ul.event-box {
 		text-transform: uppercase;
 	}
 	li.title{
+		font-family: $font-family-sans-serif;
 		display: block;
 		float: left;
 		font-size: 1em;
 		font-weight: 100; 
 	}
 	li.full-title{
+		font-family: $font-family-sans-serif;
 		display: block;
 		float: left;
 		font-size: 1em;
