@@ -49,7 +49,7 @@
                   <input type="text" placeholder="Search">
                 </div>
                 <div class="large-4 small-3 columns">
-                  <a href="#" class="primary button expand">Go</a>
+                  <a href="#" class="primary button expand"><i class="mdi mdi-magnify"></i></a>
                 </div>
               </div>
             </li>
@@ -61,31 +61,92 @@
     <div id="content-heading" class="page-block">
       <div class="row">
         <section class="medium-9 columns right">
-          <h2>We're FIRST Robotics Team 3322</h2>
-          <em class="description">Eagle Imperium at Howell 2014</em>
+          <h2>2011: <em>Logo Motion</em></h2>
+          <em class="description"> Eagle Imperium at Howell 2014</em>
         </section>
       </div>
     </div>
 
     <div id="body" class="row">
-      <aside id="sidebar" class="medium-2 columns left">
+      <aside id="sidebar" class="medium-3 columns left">
         <ul class="side-nav">
-          <li><a href="">About the Team</a></li>
-          <li><a href="">Team Resources</a></li>
-          <li><a href=""><em>FIRST</em> Games</a></li>
-          <li><a href="">Get Involved</a></li>
-          <li><a href="">News</a></li>
+          <li><a href=""><strong>Aerial Assist</strong> 2014</a></li>
+          <li><a href=""><strong>Ultimate Ascent</strong> 2013</a></li>
+          <li><a href=""><strong>Rebound Rumble</strong> 2012</a></li>
+          <li><a href=""><strong>Logo Motion</strong> 2011</a></li>
+          <li><a href=""><strong>Breakaway</strong> 2010</a></li>
 
         </ul>
       </aside>
-      <section id="content" class="medium-9 columns right">
+      <section id="content" class="medium-8 columns right">
         <article>
-          
-          <p>Since 2009, Eagle Imperium has been participating in <a href="http://usfirst.org" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://usfirst.org', 'FIRST Robotics Competitions']);"   target="_blank"><em>FIRST</em> Robotics Competitions</a>. Our team is comprised of about 50 high school students as well as several mentors from the community. We are a non-profit group sponsored by several generous businesses and corporations.  To read more, click <a href="http://www.skylinerobotics.org/team/" onclick="_gaq.push(['_trackEvent', 'outbound-article-', 'http://www.skylinerobotics.org/team/', 'here']);" title="here">here</a>.</p>
-          <div id="attachment_1676" class="wp-caption aligncenter" style="width: 570px">
-            <img class="size-large wp-image-1676" width="560" height="372" alt="Our 2012 robot during the Kettering competition." src="http://i2.wp.com/www.skylinerobotics.org/wp-content/uploads/2012/01/6808651132_0b707d2b55_b.jpg?w=560" title="Elset at Kettering"></img>
-            <p class="wp-caption-text">Our 2012 robot scoring during the Kettering competition. Our robot is in the middle.</p>
-          </div>
+        	<h2>Logo Moton</h2>
+			<p>Logo Motion is the 20th FRC game, played in 2011 on a 27' by 54' field. Two alliances of three teams each operate their robots to hang tubes on the scoring pegs on the close side of the field. Two arrays of 3 by 3 pegs lie in each side of the field. Tubes hung on the top rack are worth three points each; middle row hung tubes are worth two points, and bottom row hung tubes are worth one point. During Autonomous period, teams hang ubertubes, which double the value of the tube on the rack. Tele-op period lasts for two minutes following Autonomous period. Any "Logo" of a Triangle-Circle-Square that is hung on one array will double the score for that array's row. Ten seconds before the end of the match, robots can deploy Minibots onto one of the two designated towers for their alliance. Minibots race to the top of the pole with first place earning a thirty point bonus, second place earning a twenty point bonus, third place earning a fifteen point bonus, four place earning a ten point bonus.
+			</p>
+			<p><iframe title="YouTube video player" src="https://www.youtube.com/embed/DTJOXTIaa9g" width="560" height="315"></iframe></p>
+
+			<h2>Design Process</h2>
+			<p>Cuddles was built to play <a title="Games" href="http://www.skylinerobotics.org/first/games#Logomotion">Logo Motion</a> and had several design achievements mind: maneuverability, high scoring capability, and reliable minibot deployment. The team quickly identified that one of the hardest things in a match would be driving, so mecanum wheels were chosen to give our driver highest level of maneuverability. Another design challenge that the team overcame was deciding upon which motor would lift our arm. The team settled on two window motors because when the arm was fully lifted, the robot would not have to constantly feed power to the motors to keep it up. Instead, the worm gear within the window motors would keep the arm locked in place.</p>
+
+			<h2>Naming</h2>
+			<p>During the lunch period of the Saturday of week 5, students gathered in Mr. Coupland's classroom to decide upon a name for the 2011 robot. Students took their time to suggest names to captain <a href="http://www.skylinerobotics.org/team/students/jeffrey-h/">Jeffrey H.</a> After a bulk of suggestions were suggested, each name was reviewed by the entire team with a vocal confirmation. If a majority of students said a yes, the name would continue to round two; if the name was largely disliked, it was removed from the suggestions board. Only 4 names made it to round two, and the each team member had one vote. Students and mentors voted upon the name that they most liked.</p>
+			
+			<div class="highlight"><iframe src="http://www.youtube.com/embed/ZXvJxDkSY-k" height="315" width="560"></iframe></div>
+
+			<p>The robot had a claw that largely resembled a eagle claw. One student thought that due to the resemblance to the eagle, the robot was hug-able and cuddly, thus arriving to the name suggestion of Cuddles. With a great majority of the team on board with naming the robot Cuddles, the 2011 robot's official name was therefore Cuddles.</p>
+
+			<h2>Robot Specifications</h2>
+			<h3 id="DriveTrain">Drive Train</h3>
+			<ul>
+				<li>4 CIM Motors</li>
+				<li>4 Toughbox Minis</li>
+				<li>4 8" Mecanum Wheels</li>
+			</ul>
+			<h3>Elevator</h3>
+			<ul>
+				<li>2 Window Motors</li>
+				<li>Built in two stages</li>
+				<li>First stage was driven up by a cable attached to the window motors</li>
+				<li>Second stage was passively attached to the first stage</li>
+			</ul>
+			<h3>Arm</h3>
+			<ul>
+				<li>1 Window Motor</li>
+				<li>Pivots on a 2010 Chassis Lift Bracket</li>
+				<li>Attached to the second stage of the Elevator</li>
+				<li>Cable would lift or lower the arm</li>
+			</ul>
+			<h3>Claw</h3>
+			<ul>
+				<li>1 Window Motor</li>
+				<li>Only middle claw was actuated</li>
+				<li>Middle claw was attached to motor via elastic tubing</li>
+				<li>Covered in Yoga Mat for added traction</li>
+			</ul>
+			<h3>Minibot Deployment</h3>
+			<ul>
+				<li>1 Servo</li>
+				<li>Worked with Elastic potential energy</li>
+				<li>Deployed and then driven into pole</li>
+				<li>Based on <a title="The Pink Team" href="http://www.thepinkteam.org/index.php?active=history&amp;section=year&amp;year=2011">Team 233’s ramp concept</a></li>
+			</ul>
+			<h3>Minibot</h3>
+			<ul>
+				<li>2 Tetrix Motors without gearboxes</li>
+				<li>Chassis is made of 1” by 2” aluminum stock</li>
+				<li>Elastic tubing covered drive shaft for traction</li>
+				<li>Simple limit switch system started and stopped the minibot</li>
+				<li>1.4 seconds to go up pole</li>
+				<li>Aluminum eagle wings for added imagery</li>
+			</ul>
+			<h3>Miscellaneous Facts</h3>
+			<ul>
+				<li>Deployment system was redesigned 2 times throughout the season.</li>
+				<li>3322 was water-jetted into the side of the frame to reduce robot weight.</li>
+				<li>Had the ability to line-track for autonomous mode.</li>
+				<li>Used no chain!</li>
+			</ul>
+			
         </article>
       </section>
       
@@ -103,7 +164,7 @@
           <p class="tiny-text">FIRST, FRC, FTC, FLL, COOPERTITION, GRACIOUS PROFESSIONALISM, BREAKAWAY, LOGO MOTION, and REBOUND RUMBLE are trademarks of United States For the Inspiration and Recognition of Science and Technology aka US FIRST CORPORATION. All trademarks and logos used with permission as a FIRST team.</p>
         </div>
       </div>
-      <span class="bottom textalign-center">Copyright ©2012 Eagle Imperium</span>
+      <span class="bottom textalign-center">Copyright ©2015 Eagle Imperium</span>
       
     </footer>
 

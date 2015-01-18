@@ -7,7 +7,9 @@ The last time FRC3322 made a Wordpress theme, flat design was a whim, HTML5 was 
 Instead of dealing in the world of custom layouts, Foundation 5 will take the helm.
 
 - [Foundation](http://foundation.zurb.com/)
+-  [Material Design Icons](http://materialdesignicons.com/)
+
 
 ### Fonts
 - [Franchise](http://www.losttype.com/font/?name=franchise)
-- [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
+- [Roboto](http://www.google.com/fonts/specimen/Roboto)
