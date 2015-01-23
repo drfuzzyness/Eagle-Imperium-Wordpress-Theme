@@ -3,7 +3,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-	margin: 5rem;
+	//margin: 5rem;
 }
 
 header {
@@ -18,14 +18,19 @@ header {
 	font-family: $font-family-sans-serif;
 	
 	.row .columns .top {
-		margin-top: 18%;
+		@media #{$medium-up} {
+			margin-top: 18%;
+		}
+		
 	}
 
 	.row .columns .middle {
 		margin-top: 5%;
 	}
 	.row .columns .bottom {
-		margin-top: 20%;
+		@media #{$medium-up} {
+			margin-top: 20%;
+		}
 	}
 
 	h1 {
@@ -38,14 +43,19 @@ header {
 	}
 
 	.title {
-		margin-top: 4rem;
+		@media #{$medium-up} {
+			margin-top: 4rem;
+		}
 		text-shadow: 0 1px 0 $ei-darkgrey;
 	}
 
 	.tagline {
-		font-family: $font-family-sans-serif;
+		@media #{$medium-up} {
+			
+			line-height: 1.2em;
+		}
 		margin-top: -2rem;
-		line-height: 1.2em;
+		font-family: $font-family-sans-serif;
 		font-size: 1.5em;
 		font-weight: 100;
 		text-transform: uppercase;
@@ -77,11 +87,18 @@ header {
 	}
 
 	.news {
-		margin-top: 4rem;
+		@media #{$medium-up} {
+			margin-top: 4rem;
+		}
 	}
 
 	p {
 		font-family: $font-family-sans-serif;
+		a {
+			color: white;
+			font-weight: bold;
+			border-bottom: 1px;
+		}
 	}
 
 }
@@ -90,8 +107,10 @@ header {
 
 #header-nav{
 	.top-bar {
-		.name{
-			max-width: 1.5 * $topbar-height;
+		.name img{
+			max-width: 6.5 * $topbar-height;
+			max-height: .8 * $topbar-height;
+			line-height: 2em;
 		}
 	}
 	.fixed {
@@ -119,7 +138,7 @@ header {
 		margin-top: 0;
 		color: white;
 		text-transform: uppercase;
-		font-weight: 100;
+		font-weight: 800;
 		text-shadow: 0 1px 0 $ei-darkgrey;
 	}
 
@@ -130,16 +149,24 @@ header {
 }
 
 #sidebar {
-	ul {
+	ul.side-nav {
+		li {
+			@media #{$small-only} {
+				display: inline-block;
+			}
+		}
 		text-align: right;
 		list-style: none;
 		font-style: oblique;
 		color: black;
 		//margin-top: 6em;
 		a {
-			color: black;
-			font-weight: 300;
+			color: $ei-grey;
+			font-weight: 400;
 			&:visited {
+				color: $ei-grey;
+			}
+			strong {
 				color: black;
 			}
 		}
@@ -220,6 +247,7 @@ footer {
 
 	.tiny-text {
 		font-size: .5em;
+		line-height: 1.4em;
 		font-weight: 100;
 	}
 

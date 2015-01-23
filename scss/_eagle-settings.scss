@@ -8,6 +8,10 @@ $ei-blue: rgba( 118, 178, 221, 1);
 $ei-grey: rgba( 179, 179, 179, 1);
 $ei-darkgrey: rgba( 34, 34, 34, 1);
 
+$primary-color: $ei-blue;
+$secondary-color: $ei-grey;
+$alert-color: $ei-red;
+
 $paragraph-font-size: 1.2rem;
 $paragraph-line-height: 2rem;
 $body-font-color: $ei-darkgrey;
@@ -18,7 +22,9 @@ $body-font-family: 'Roboto', serif;
 $franchise-font: "Franchise", 'Roboto', Helvetica, sans-serif;
 $header-font-family: $franchise-font;
 
+$topbar-link-font-family: $font-family-sans-serif;
+$topbar-link-text-transform: none;
 $topbar-height: rem-calc(65);
 
 $topbar-bg-color: $ei-blue !default;
-$topbar-dropdown-bg: white;
+$topbar-dropdown-bg: $ei-blue;
