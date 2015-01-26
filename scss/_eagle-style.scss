@@ -182,6 +182,23 @@ header {
 #content {
 	article {
 		margin-bottom: 6em;
+		ul.accordion {
+			li {
+				a {
+					font-size: 2em;
+					padding: 1em;
+					color: $ei-darkgrey;
+					font-family: $franchise-font;
+					font-style: none;
+					text-transform: 
+					font-weight: normal;
+					&:hover, &:active, &.active {
+						background-color: $ei-blue;
+						color: white;
+					}
+				}
+			}
+		}
 		
 		a {
 			color: $ei-blue;
@@ -201,6 +218,8 @@ header {
 				background-color: $ei-red;
 			}
 		}
+
+
 	}
 }
 
